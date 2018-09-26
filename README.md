@@ -17,7 +17,7 @@ The solution of the second problem got two versions. The first one uses generato
 
 Please check \_\_tests\_\_/permutations.
 
-Tests are writted with use of Jest. For running tests:
+Tests are written with use of Jest. For running tests:
 
 ```
 npm i
