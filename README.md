@@ -10,12 +10,12 @@ The solution of the first problem uses function composition to get the final res
 At first we got small pieces of the future output, then we apply permutations on these pieces, then we join the permutation result into the array of strings.
 The limitation of this solution is using a lot of loops. If we would like to work on performance budget, we'll probably need to avoid it (not avoid loops at all, just minimize an amount of them). Also the first version of permutation function uses generators, so the another limitation could be an old environment support.
 
-Please check __tests__/combinations to see how the solution should be used.
+Please check \__tests\__/combinations to see how the solution should be used.
 
 
 The solution of the second problem got two versions. The first one uses generators, as I've mentioned before. The second one uses the reduce and map methods.
 
-Please check __tests__/permutations.
+Please check \__tests\__/permutations.
 
 Tests are writted with use of Jest. For running tests:
 
